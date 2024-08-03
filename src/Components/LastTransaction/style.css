@@ -1,6 +1,6 @@
 .transaction{
     margin-top: 10px;
-    height: 138px;
+    /* height: 138px; */
     border-radius: 0 20px 20px 0;
     background-color: white;
 }
@@ -8,9 +8,13 @@ table{
     margin: 0 auto;
     width: 98%;
 }
+table>tr:nth-child(1){
+    
+    border: 1px solid;
+}
 th{
-    font-size: 15px;
-    padding: 5px 5px 10px 5px;
+    font-size: 14px;
+    padding: 2px 5px 5px 5px;
     text-align: start;
 }
 td{
@@ -19,9 +23,10 @@ td{
     margin-left: 10px;
 }
 .transactionContent{
+    height: 25px;
     display: flex;
     justify-content: space-between;
-    margin-top: 7px;
+    margin-top: 8px;
 }
 .transactionTitle{
     font-weight: 600;

@@ -7,21 +7,23 @@ import { Chart } from "react-google-charts";
 const StoreOrder = () => {
     const data = [
         ["From", "To", "Weight"],
-        ["Online Store", "Accessories", 67],
-        ["Online Store", "Electronics", 41],
-        ["Offline Store", "Fashion", 20],
-        ["Offline Store", "Accessories", 33],
+        ["Online Store", "Accessories", 24],
+        ["Online Store", "Electronics", 23],
+        ["Online Store", "Fashion", 15],
+        ["Offline Store", "Accessories", 14],
+        ["Offline Store", "Electronics", 13],
+        ["Offline Store", "Fashion", 5],
     ];
 
     const options = {
         sankey: {
             node: {
-                colors: ["#5365E9", "#5365E9", "#9778DD", "#5365E9", "#9778DD", "#9778DD", "#9778DD"], // Customize colors
+                colors: ["#5365E9", "#5365E9", "#9778DD", "#5365E9", "#9778DD", "#9778DD", "#9778DD"],
                 label: { fontSize: 12 },
             },
             link: {
                 colorMode: "gradient",
-                colors: ["#D8BFD8", "#D8BFD8", "#D8BFD8"], // Customize colors
+                colors: ["#D8BFD8", "#D8BFD8", "#D8BFD8"],
             },
         },
     };

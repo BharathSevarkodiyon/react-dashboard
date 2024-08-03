@@ -42,12 +42,12 @@ const Slider = () => {
         <img src={gwcImage} alt="GWC Logo" />
       </div>
       <div className="active">
-      {icons.map((icon, index) => (
-        <div className="data active" key={index}>
-          <div className="icon">{icon}</div>
-          <div className="name">{names[index]}</div>
-        </div>
-      ))}
+        {icons.map((icon, index) => (
+          <div className="data active" key={index}>
+            <div className="icon">{icon}</div>
+            <div className="name">{names[index]}</div>
+          </div>
+        ))}
       </div>
       <div className="footer">
         <div className="bottomIconDiv">

@@ -56,6 +56,7 @@
 .storeInc{
     margin-top: 5px;
     display: flex;
+    justify-content: space-between;
 }
 .storeInc>p:first-child{
     font-size: 11px;
@@ -78,27 +79,4 @@
     height: 50%;
     width: 65%;
     font-size: 13px;
-    /* border: 1px solid; */
 }
-
-/* */
-
-/* .storeBodyContent {
-    flex: 1;
-    margin-right: 20px;
-} */
-
-/* .storeBodyContent p {
-    margin: 0;
-} */
-
-/* .storeInc {
-    display: flex;
-    flex-direction: column;
-    color: green;
-} */
-
-/* .sankeyChart {
-    width: 100%;
-    height: 400px;
-} */
